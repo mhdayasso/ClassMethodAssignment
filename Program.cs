@@ -2,10 +2,10 @@
 
 namespace ClassMethodAssignment
 {
-    // This class contains the math method required for the assignment
+    // This class contains the method required for the assignment
     class MathOperation
     {
-        // This void method takes two integer parameters
+        // This void method takes two integers as parameters
         public void DoMath(int firstNumber, int secondNumber)
         {
             // Perform a math operation on the first integer
@@ -26,13 +26,13 @@ namespace ClassMethodAssignment
             // Instantiate the MathOperation class
             MathOperation mathObject = new MathOperation();
 
-            // Call the method by passing two numbers in order
+            // Call the method by passing in two numbers
             mathObject.DoMath(5, 12);
 
-            // Call the method again by specifying the parameter names
+            // Call the method again by specifying the parameters by name
             mathObject.DoMath(firstNumber: 8, secondNumber: 20);
 
-            // Keep the console window open until the user presses Enter
+            // Keep the console window open
             Console.ReadLine();
         }
     }
